@@ -1,5 +1,11 @@
 # Jobs and admission prediction 
 ## IDEATHON 2022
+Done by :
+1. Arun Kumar J
+2. Surampally Venkata Sai Satya
+3. Tharuun M
+4. Jaswanth Godavarthi
+
 Extract screenshots folder to see the images of working project. Extract all the files.
 
 This folder contain the codes and data created during IDEATHON'22 for admission and jobs prediction based on demographic location. Hackathon is organised by AMITY University.
