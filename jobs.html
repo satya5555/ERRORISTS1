@@ -1,0 +1,108 @@
+<HTML>
+<HEAD>
+	<TITLE>HOME - ERRORISTS</TITLE>
+</HEAD>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<BODY>
+
+<!-- FIXED MENU BAR ON TOP-->
+
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 500;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 48px;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 17px;
+  z-index: 500;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+</style>
+</head>
+<body>
+
+<div class="navbar" style="position:fixed;">
+  <a href="index.html">HOME</a>
+  <a href="aboutus.html">ABOUT US</a>
+  <a href="ourproject.html">OUR PROJECT</a>
+  <a href="companylogin.html">COMPANY LOGIN</a>
+
+</div>
+
+<!-- TEAM NAME and PROBLEM-->
+
+
+<H2 style="position:absolute; top:90px; left:630px; font-family:Arial; font-style: bold;">ERRORISTS</H2>
+<p style="position:absolute; top:140px; left:350px; font-family:Arial; font-size:22px; text-align:center;">Prediction of Admission and Jobs in Engineering, Management and Pharmacy<br>with respect to Demographic Location</p>
+
+<!-- DROPDOWN MENU -->
+
+<H4 style="position:absolute; font-family:Arial; margin-left: 450px; margin-top: 300px">LOCATION</H4>
+<H4 style="position:absolute; font-family:Arial; margin-left: 820px; margin-top: 300px">FIELD OF SPECIALIATION</H4>
+
+<form action='result.php' method='POST'>
+  <select name="location" style="background-color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 350px;
+    margin-left: 450px;">
+    <option value="select">select</option>
+    <option value="Gujarat">Gujarat</option>
+    <option value="Karnataka">Karnataka</option>
+    <option value="Chhattisgarh">Chhattisgarh</option>
+    <option value="Delhi">Delhi</option>
+   </select>
+
+  <select name="fos" style="background-color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 350px;
+    margin-left: 150px;">
+    <option value="Engineering">Engineering</option>
+    <option value="Management">Management</option>
+    <option value="Pharmacy">Pharmacy</option>
+   </select>
+   <br>
+
+  <input type='Submit' value="Submit" style="background-color: #00FFA3;
+    border: none;
+    color: black;
+    padding: 13px 158px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-family: Arial;
+    margin-left: 580px;
+    margin-top: 50px;">
+</form>
+
+</BODY>
+</HTML>

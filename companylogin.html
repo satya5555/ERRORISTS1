@@ -1,0 +1,81 @@
+<HTML>
+<HEAD>
+	<TITLE>HOME- ERRORISTS</TITLE>
+</HEAD>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<BODY>
+
+<!-- FIXED MENU BAR ON TOP-->
+<body style="background-color:rgb(178, 245, 225);"></body>
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 500;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 48px;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 17px;
+  z-index: 500;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+</style>
+</head>
+<body>
+
+<div class="navbar" style="position:fixed;">
+  <a href="index.html">HOME</a>
+  <a href="aboutus.html">ABOUT US</a>
+  <a href="ourproject.html">OUR PROJECT</a>
+  <a href="companylogin.html">COMPANY LOGIN</a>
+  
+
+</div>
+
+<!-- TEAM NAME and PROBLEM-->
+
+
+<H2 style="position:absolute; top:90px; left:630px; font-family:Arial; font-style: bold;">ERRORISTS</H2>
+<p style="position:absolute; top:140px; left:350px; font-family:Arial; font-size:22px; text-align:center;">Prediction of Admission and Jobs in Engineering, Management and Pharmacy<br>with respect to Demographic Location</p>
+
+
+<!-- DROPDOWN MENU -->
+
+<DIV style="margin-left: 100px; margin-top: 250px;">
+    <H2><B>New Job Posting : </B></H2>
+    <H4>The fields marked with <FONT Color="Red"><SUP>*</SUP></FONT> are required.</H4>
+
+    <FORM Action="success.php" Method="POST" id="companylogin">
+      <P>Job Title<FONT Color="Red"><SUP>*</SUP></FONT> : <INPUT Type="text" Name="jobtitle" id="jobtitle" Title="Enter Job Title"required /></P>
+      <P>Location<FONT Color="Red"><SUP>*</SUP></FONT> : <INPUT Type="text" Name="location" id="location" Title="Enter Location"required /></P>
+      <P>Salary<FONT Color="Red"><SUP>*</SUP></FONT> : <INPUT Type="number" Name="salary" id="salary" Title="Enter Salary"/></P>
+      <P>Company<FONT Color="Red"><SUP>*</SUP></FONT> : <INPUT Type="text" Name="company" id="company" Title="Enter company name" required /></P>
+      <P>Field<FONT Color="Red"><SUP>*</SUP></FONT> : <INPUT Type="text" Name="field" id="field" Title="Enter Field" required /></P>
+      <P>State<FONT Color="Red"><SUP>*</SUP></FONT> : <INPUT Type="text" Name="state" id="state" Title="Enter State" required /></P>
+
+      <BR>
+
+      <P><INPUT Type="submit" Name="submit" id="submit" Value="Submit" Title="Click here to complete form detail" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </FORM>
+</DIV>
+
+</BODY>
+</HTML>

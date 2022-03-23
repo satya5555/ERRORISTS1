@@ -1,0 +1,98 @@
+<HTML>
+<HEAD>
+  <TITLE>HOME- ERRORISTS </TITLE>
+</HEAD>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<BODY>
+
+<!-- FIXED MENU BAR ON TOP-->
+<body style="background-color:rgb(202, 178, 245);"></body>
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 500;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 48px;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 17px;
+  z-index: 500;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+</style>
+</head>
+<body>
+
+<div class="navbar" style="position:fixed;">
+  <a href="index.html">HOME</a>
+  <a href="aboutus.html">ABOUT US</a>
+  <a href="ourproject.html">OUR PROJECT</a>
+  <a href="companylogin.html">COMPANY LOGIN</a>
+
+</div>
+
+<!-- TEAM NAME and PROBLEM-->
+
+
+<H2 style="position:fixed; top:90px; left:630px; font-family:Arial; font-style: bold;">ERRORISTS</H2>
+<p style="position:fixed; top:140px; left:350px; font-family:Arial; font-size:20px; text-align:center;">Prediction of Admission and Jobs in Engineering, Management and Pharmacy<br>with respect to Demographic Location</p>
+
+
+
+<!-- TEAM AND PROBLEM DETAILS -->
+
+<H3 style="position:fixed; top:270px; left:640px; font-family:Arial;">THE PROJECT</H3>
+
+<p style="position:fixed; top:330px; margin-left: 100px; font-family:Arial; font-size:17px; text-align:left; margin-right: 100px;">The target we are pursuing here, is Prediction of admission and jobs in demographic details on basis of some parameters. Our approach to the problem is through the supply and demand management using which we optimise the use of resources which are students, college seats and most importantly, jobs and minimise the cost function which is proportional to the number of vacant seats in the colleges. We have implemented this logic using a four layered feed forward neural network. For our web page we have used HTML and CSS for the front end and PHP in background for connecting our web pages with the web server. We have implemented a web based portal which can be used for two purposes- predicting jobs in a particular demographic location and also for seeing the availability of jobs in the desired location</p>
+
+
+<style>
+.footer { position:fixed;
+   height:100px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #BDBDBD;
+   color: white;
+   text-align: center;
+   margin-top: 200px;
+}
+</style>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</BODY>
+</HTML>
