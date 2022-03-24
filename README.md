@@ -16,4 +16,5 @@ For demonstration purpose, we chose some target areas and used limited number of
 
 A neural network model is used for the prediction of admission and jobs. LSTM: 4 layers with varying number of neurons GRU: 4 layers with varying number of neurons LINEAR REGRESSION: for admission
 
-The predictions we made are shown in the form of graphs. Due to inavailibility of data, the graphs are the static based on predictions from previous data
+The predictions we made are shown in the form of graphs. Due to inavailibility of data, the graphs are the static based on predictions from previous data.
+
